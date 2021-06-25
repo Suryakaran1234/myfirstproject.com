@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time-Pass Project</title>
+    <link rel="shortcut icon" href="Images/favicon.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1>
+        Surya's World🌏
+        <img
+          src="../Images/Surya.jpg"
+          alt="Surya's Photo"
+          class="review-clients-images"
+          id="surya"
+        />
+      </h1>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a href="../index.html"> Home</a></li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <main>
+      <form action="" class="form">
+        <label for="input-name">Name</label>
+        <input
+          type="text"
+          name="name"
+          class="form-input"
+          id="input-name"
+          oninput="checkInput()"
+        />
+        <label for="input-mail">E-Mail</label>
+        <input
+          type="text"
+          name="email"
+          class="form-input"
+          id="input-mail"
+          oninput="checkInput()"
+        />
+        <label for="input-name">Your Message</label>
+        <textarea
+          name="message"
+          id="input-message"
+          cols="30"
+          rows="10"
+          class="form-input"
+          oninput="checkInput()"
+        ></textarea>
+        <button type="submit" class="submit-button" disabled>Submit</button>
+      </form>
+    </main>
+  </body>
+  <p class="follow-links">Follow Me On These Plat-Forms😉</p>
+  <footer class="icons">
+    <a href="https://www.instagram.com/suryakran/" target="_blank" class="icons"
+      ><img src="../Images/instagram.png" alt="Instagram icon" id="instagram"
+    /></a>
+    <a href="https://www.facebook.com/surykrn/" target="_blank" class="icons"
+      ><img src="../Images/facebook.png" alt="Facebook icon" id="facebook"
+    /></a>
+    <a href="https://github.com/Suryakaran1234" target="_blank" class="icons"
+      ><img src="../Images/github.png" alt="GitHub icon" id="github"
+    /></a>
+    <a
+      href="https://www.linkedin.com/in/surya-karan-sharma-060647ab/"
+      target="_blank"
+      class="icons"
+      ><img src="../Images/linkedin.png" alt="Linkedin icon" id="linkedin"
+    /></a>
+  </footer>
+</html>

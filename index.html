@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time-Pass Project</title>
+    <link rel="shortcut icon" href="Images/favicon.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="script/app.js" defer></script>
+    <script src="script/main.js" defer></script>
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <div class="modal">
+      <h1>Get in Touch</h1>
+      <p>Contact me to find out more about these cities, my life and much more exciting stuff!😉</p>
+      <a href="contact/index.html"><button>Contact</button></a>
+    </div>
+    <header class="header">
+      <h1>
+        Surya's World🌏
+        <img
+          src="Images/Surya.jpg"
+          alt="Surya's Photo"
+          class="review-clients-images"
+          id="surya"
+        />
+      </h1>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li>Home</li>
+        <li>
+          <a href="contact/index.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="city">
+        <p>My Hometown Karnal</p>
+        <p>Current Residency</p>
+      </div>
+      <div class="city-images">
+        <img
+          src="images/noor-mahal.jpg"
+          alt="Noor Mahal in Karnal City"
+          id="karnal"
+        />
+        <img src="images/Jaipur.jpg" alt="Hawa Mahal in Jaipur" id="jaipur" />
+      </div>
+      <div class="feedback">
+        <p>Do you like My Page?😄</p>
+        <input
+          type="checkbox"
+          name="check"
+          onclick="onlyOne(this)"
+        />Satisfied👍
+        <input type="checkbox" name="check" onclick="onlyOne(this)" />It's
+        Okay😄
+        <input type="checkbox" name="check" onclick="onlyOne(this)" />Below
+        Average🤡
+        <input
+          type="checkbox"
+          name="check"
+          onclick="onlyOne(this)"
+        />Unsatisfied😠
+      </div>
+    </main>
+    <footer>
+      <div class="reviews">
+        <img
+          src="Images/Monu.png"
+          alt="Mamohan's Photo"
+          class="review-clients-images"
+          id="monu"
+        />
+        <p>Monu - Awesome Page, great work, Keep it up!</p>
+      </div>
+
+      <div class="reviews">
+        <img
+          src="Images/Yuvi.png"
+          alt="Yuvraj's Photo"
+          class="review-clients-images"
+          id="yuvi"
+        />
+        <p>Honey - Looks Really nice, Beautiful Pictures!</p>
+      </div>
+      <div class="reviews">
+        <img
+          src="Images/Varun.png"
+          alt="Varun's Photo"
+          class="review-clients-images"
+          id="varun"
+        />
+        <p>Golu - Nice Work!</p>
+      </div>
+    </footer>
+  </body>
+</html>
